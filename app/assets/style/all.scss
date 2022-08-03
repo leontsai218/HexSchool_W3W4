@@ -1,11 +1,7 @@
-@import "_reset.scss";
+@import "./_reset.scss";
+@import "./_variable.scss";
 
-$color_primary: #AA0601;
-
-.logo {
-  width: 80px;
-}
-
-header {
-  background-color: $color_primary;
-}
+// pages
+@import "./_common.scss";
+@import "./_layout.scss";
+@import "./_index.scss";

@@ -1,3 +1,7 @@
+section {
+    padding: 80px 0;
+}
+
 .container {
     width: 1296px;
     margin: 0 auto;
@@ -16,22 +20,55 @@
 
     & h2,
     & h4 {
-        color: #650300;
+        color: $color-primary-title;
     }
     & h2 {
-        line-height: 96px;
         font-weight: bold;
-    }
-    & h4 {
-        line-height: 54px;
     }
 }
 
 .purchase-now {
     color: #fff;
-    background-color: $color-primary;
+    background-color: $color-primary-main;
     padding: 6px 12px;
     text-decoration: none;
     font-size: 20px;
     line-height: 29px;
+}
+
+.section-title {
+    color: $color-primary-title;
+    line-height: 72px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.feature {
+    background-color: $color-secondary-main;
+}
+
+.feature-points {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+    & li {
+        width: 306px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    & h5 {
+        color: $color-primary-title;
+    }
+
+    & .icon {
+        width: 84px;
+    }
+
+    & p {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }

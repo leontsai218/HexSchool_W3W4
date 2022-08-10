@@ -8,13 +8,12 @@ header {
         line-height: 1.25rem;
         font-size: 1.25rem;
         gap: $default-font-size * 5;
-        
     }
 }
 
 footer {
     padding: ($default-font-size * 3) 0;
-    
+
     .menu {
         gap: $default-font-size * 3;
     }
@@ -24,7 +23,8 @@ footer {
     }
 }
 
-header, footer {
+header,
+footer {
     background-color: $color-primary-main;
 }
 
@@ -33,14 +33,9 @@ header, footer {
     margin: 16px 0;
 }
 
-.container {
-    width: 1296px;
-    margin: 0 auto;
-}
-
 .menu {
     display: flex;
-    
+
     a {
         text-decoration: none;
         color: #fff;

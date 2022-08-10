@@ -2,6 +2,13 @@ img {
     vertical-align: top;
 }
 
+.container {
+    width: 1296px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .flex {
     display: flex;
 }

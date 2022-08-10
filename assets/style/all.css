@@ -135,6 +135,12 @@ table {
 img {
   vertical-align: top; }
 
+.container {
+  width: 1296px;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px; }
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,16 +188,13 @@ footer {
   footer .social-icons img {
     width: 48px; }
 
-header, footer {
+header,
+footer {
   background-color: #AA0601; }
 
 .logo {
   width: 80px;
   margin: 16px 0; }
-
-.container {
-  width: 1296px;
-  margin: 0 auto; }
 
 .menu {
   display: -webkit-box;
@@ -219,10 +222,6 @@ header, footer {
 section {
   padding: 80px 0; }
 
-.container {
-  width: 1296px;
-  margin: 0 auto; }
-
 .hero-banner {
   background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
   height: 787px;
@@ -230,8 +229,7 @@ section {
 
 .slogan {
   text-align: right;
-  padding-top: 296px;
-  padding-right: 311px; }
+  padding-top: 296px; }
   .slogan h2,
   .slogan h4 {
     color: #650300; }
@@ -250,7 +248,8 @@ section {
   color: #650300;
   line-height: 72px;
   text-align: center;
-  font-weight: bolder; }
+  font-weight: bolder;
+  margin-bottom: 48px; }
 
 .feature {
   background-color: #FBF2F2; }
@@ -308,5 +307,24 @@ section {
     color: #AA0601;
     font-style: italic;
     font-weight: bolder; }
+
+.design-frame {
+  height: 608px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png");
+  background-size: cover; }
+  .design-frame .section-title {
+    color: #fff; }
+  .design-frame img {
+    height: 240px; }
+  .design-frame ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .design-frame .design-type {
+    background-color: #fff;
+    font-style: italic;
+    color: #AA0601;
+    font-weight: bolder;
+    text-align: center; }
 
 /*# sourceMappingURL=all.css.map */

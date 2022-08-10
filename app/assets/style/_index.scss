@@ -11,7 +11,6 @@ section {
 .slogan {
     text-align: right;
     padding-top: 296px;
-    padding-right: 311px;
 
     h2,
     h4 {
@@ -36,6 +35,7 @@ section {
     line-height: 72px;
     text-align: center;
     font-weight: bolder;
+    margin-bottom: 48px;
 }
 
 .feature {
@@ -87,5 +87,31 @@ section {
         color: $color-primary-main;
         font-style: italic;
         font-weight: bolder;
+    }
+}
+
+.design-frame {
+    height: 608px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png");
+    background-size: cover;
+
+    .section-title {
+        color: #fff;
+    }
+
+    img {
+        height: 240px;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    .design-type {
+        background-color: #fff;
+        font-style: italic;
+        color: $color-primary-main;
+        font-weight: bolder;
+        text-align: center;
     }
 }

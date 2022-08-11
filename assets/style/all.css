@@ -135,8 +135,8 @@ table {
 
 * {
   font-family: "微軟正黑體" !important;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 img {
   vertical-align: top; }
@@ -145,7 +145,13 @@ img {
   width: 1296px;
   margin: 0 auto;
   padding-left: 12px;
-  padding-right: 12px; }
+  padding-right: 12px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+
+.container-s {
+  width: 636px;
+  margin: 0 auto; }
 
 .flex {
   display: -webkit-box;
@@ -177,6 +183,10 @@ h4 {
 h5 {
   font-size: 24px;
   line-height: 36px; }
+
+h6 {
+  font-size: 16px;
+  line-height: 24px; }
 
 body {
   font-size: 16px;
@@ -360,18 +370,46 @@ section {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 16px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-  .customer-references .name, .customer-references p {
+    padding: 16px; }
+  .customer-references h6,
+  .customer-references p {
     color: #000;
-    font-size: 16px;
-    line-height: 24px;
     text-align: left;
     margin-bottom: 8px; }
   .customer-references .footer-date {
     color: #707070;
     font-size: 14px;
     line-height: 21px; }
+
+.contact-us {
+  background-color: #FBF2F2; }
+  .contact-us .description {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 24px; }
+  .contact-us li {
+    margin-bottom: 16px; }
+  .contact-us h6 {
+    margin-bottom: 8px; }
+  .contact-us input:not([type="checkbox"]), .contact-us textarea {
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px; }
+  .contact-us textarea {
+    resize: none; }
+  .contact-us .submit {
+    width: 416px;
+    padding: 16px 0;
+    margin: 48px auto 0 auto;
+    background-color: #AA0601;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px; }
+    .contact-us .submit:hover {
+      background-color: #c30701; }
+    .contact-us .submit:active {
+      background-color: #910501; }
 
 /*# sourceMappingURL=all.css.map */

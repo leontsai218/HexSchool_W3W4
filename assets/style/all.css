@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -131,6 +132,11 @@ table {
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
+
+* {
+  font-family: "微軟正黑體" !important;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
 
 img {
   vertical-align: top; }
@@ -326,5 +332,46 @@ section {
     color: #AA0601;
     font-weight: bolder;
     text-align: center; }
+
+.customer-references {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px; }
+  .customer-references .reference-card {
+    width: 306px;
+    height: 511px;
+    -webkit-box-shadow: 0 2px 6px #00000029;
+            box-shadow: 0 2px 6px #00000029; }
+  .customer-references .photo {
+    width: 100%; }
+  .customer-references .body {
+    height: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 16px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .customer-references .name, .customer-references p {
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 8px; }
+  .customer-references .footer-date {
+    color: #707070;
+    font-size: 14px;
+    line-height: 21px; }
 
 /*# sourceMappingURL=all.css.map */

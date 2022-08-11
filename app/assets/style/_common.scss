@@ -1,6 +1,6 @@
 * {
     font-family: "微軟正黑體" !important;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 img {
@@ -12,6 +12,12 @@ img {
     margin: 0 auto;
     padding-left: 12px;
     padding-right: 12px;
+    box-sizing: content-box;
+}
+
+.container-s {
+    width: 636px;
+    margin: 0 auto;
 }
 
 .flex {
@@ -44,4 +50,9 @@ h4 {
 h5 {
     font-size: 24px;
     line-height: 36px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 24px;
 }

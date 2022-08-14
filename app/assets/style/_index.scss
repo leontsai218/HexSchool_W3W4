@@ -6,28 +6,33 @@ section {
     background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
     height: 787px;
     background-size: cover;
-}
+    display: flex;
+    align-items: center;
 
-.slogan {
-    text-align: right;
-    padding-top: 296px;
+    .slogan {
+        text-align: right;
 
-    h2,
-    h4 {
-        color: $color-primary-title;
+        h2,
+        h4 {
+            color: $color-primary-title;
+        }
+        h2 {
+            font-weight: bolder;
+        }
     }
-    h2 {
-        font-weight: bolder;
-    }
-}
+    
+    .purchase-now {
+        margin-top: 4px;
 
-.purchase-now {
-    color: #fff;
-    background-color: $color-primary-main;
-    padding: 6px 12px;
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 29px;
+        a {
+            color: #fff;
+            background-color: $color-primary-main;
+            padding: 6px 12px;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
 }
 
 .section-title {

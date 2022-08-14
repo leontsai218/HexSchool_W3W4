@@ -150,8 +150,10 @@ img {
           box-sizing: content-box; }
 
 .container-s {
-  width: 636px;
-  margin: 0 auto; }
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px; }
 
 .flex {
   display: -webkit-box;
@@ -341,16 +343,12 @@ section {
 
 .hero-banner {
   background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
-  height: 787px;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  background-position: center; }
   .hero-banner .slogan {
-    text-align: right; }
+    text-align: right;
+    padding-top: 296px;
+    padding-bottom: 296px; }
     .hero-banner .slogan h2,
     .hero-banner .slogan h4 {
       color: #650300; }
@@ -436,7 +434,8 @@ section {
 .design-frame {
   height: 608px;
   background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position-x: center; }
   .design-frame .section-title {
     color: #fff; }
   .design-frame ul {
@@ -519,19 +518,46 @@ section {
   .contact-us textarea {
     resize: none; }
   .contact-us .submit {
-    width: 416px;
-    padding: 16px 0;
-    margin: 48px auto 0 auto;
-    background-color: #AA0601;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 24px; }
-    .contact-us .submit:hover {
-      background-color: #c30701; }
-    .contact-us .submit:active {
-      background-color: #910501; }
+    margin-top: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .contact-us .submit button {
+      background-color: #AA0601;
+      padding: 16px 0;
+      color: #fff;
+      border: none;
+      width: 65%;
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 24px; }
+      .contact-us .submit button:hover {
+        background-color: #c30701; }
+      .contact-us .submit button:active {
+        background-color: #910501; }
+
+@media (max-width: 992px) {
+  .hero-banner {
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png"); }
+  .design-frame {
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg-sm.png");
+    height: 960px; }
+    .design-frame ul {
+      gap: 24px; }
+    .design-frame li {
+      width: 100%; }
+    .design-frame .photo-double-a-plus {
+      background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-section4-1-sm.png"); }
+    .design-frame .photo-youth {
+      background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-section4-2-sm.png"); }
+  .customer-references .reference-card {
+    width: 336px; }
+    .customer-references .reference-card .photo {
+      height: 306px;
+      overflow: hidden; } }
 
 @media (max-width: 767px) {
   section {
@@ -541,9 +567,10 @@ section {
     line-height: 36px;
     margin-bottom: 24px; }
   .hero-banner {
-    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png");
-    width: 100%;
-    background-size: cover; }
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png"); }
+    .hero-banner .slogan {
+      padding-top: 144px;
+      padding-bottom: 144px; }
     .hero-banner h2 {
       font-size: 24px;
       line-height: 36px; }
@@ -563,21 +590,32 @@ section {
   .classic-frames img {
     width: 100%; }
   .design-frame {
-    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg-sm.png");
-    background-position-x: center;
     height: 820px; }
-    .design-frame ul {
-      gap: 24px; }
-    .design-frame li {
-      width: 100%; }
     .design-frame .photo-double-a-plus {
       background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-section4-1-sm.png"); }
     .design-frame .photo-youth {
       background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-section4-2-sm.png"); }
   .customer-reference .reference-card {
     width: 100%; }
-  .customer-reference .photo {
-    height: 306px;
-    overflow: hidden; } }
+  .contact-us .description {
+    font-size: 16px;
+    line-height: 24px; }
+  .contact-us .container-s {
+    width: 100%;
+    padding: 0 14px 0 13px; }
+  .contact-us .submit {
+    margin-top: 24px; }
+    .contact-us .submit button {
+      width: 100%; }
+  .contact-us .agree {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start; } }
 
 /*# sourceMappingURL=all.css.map */

@@ -19,8 +19,8 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="container flex justify-space-between align-center">
+  <header>
+    <div class="header container flex justify-space-between align-center">
       <h1>
         <img class="logo"
           src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/logo-white.png"
@@ -39,46 +39,51 @@
 
   <%- contents %>
 
-    <footer class="footer">
-      <div class="container flex justify-space-between align-center">
-        <ul class="menu">
-          <li><a href="http://www.google.com">首頁</a></li>
-          <li><a href="http://www.google.com">系列鏡框</a></li>
-          <li><a href="http://www.google.com">門市據點</a></li>
-          <li><a href="http://www.google.com">部落格</a></li>
-          <li><a href="http://www.google.com">常見問題</a></li>
-        </ul>
-
-        <ul class="menu social-icons">
-          <li><a href="http://www.google.com"><img
-                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/ic-social-fb.png"
-                alt="facebook icon"></a></li>
-          <li><a href="http://www.google.com"><img
-                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/ic_social_ig.png"
-                alt="instagram icon"></a></li>
-          <li><a href="http://www.google.com"><img
-                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/ic_social_line.png"
-                alt="line icon"></a></li>
-        </ul>
-
-      </div>
+    <footer>
       <div class="container">
-        <ul class="contact-ways">
+        <div class="top">
+          <ul class="menu shortcuts">
+            <li><a href="http://www.google.com">首頁</a></li>
+            <li><a href="http://www.google.com">系列鏡框</a></li>
+            <li><a href="http://www.google.com">門市據點</a></li>
+            <li><a href="http://www.google.com">部落格</a></li>
+            <li><a href="http://www.google.com">常見問題</a></li>
+          </ul>
+
+          <ul class="menu social-icons">
+            <li><a href="http://www.google.com"><img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/ic-social-fb.png"
+                  alt="facebook icon"></a></li>
+            <li><a href="http://www.google.com"><img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/ic_social_ig.png"
+                  alt="instagram icon"></a></li>
+            <li><a href="http://www.google.com"><img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/ic_social_line.png"
+                  alt="line icon"></a></li>
+          </ul>
+
+          <ul class="contact-ways">
+            <li>
+              <span class="mdi mdi-phone-outline"></span>
+              <a href="tel:+0800-000-000">0800-000-000</a>
+            </li>
+            <li>
+              <span class="mdi mdi-email-outline"></span>
+              <a href="mailto:glasses@business.com">glasses@business.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="divider"></div>
+        <ul class="tnc">
           <li>
-            <span class="mdi mdi-phone-outline"></span>
-            <span>0800-000-000</span>
+            <span class="copyright">Copyright © 2020 Glasses.All rights reserved.</span>
           </li>
           <li>
-            <span class="mdi mdi-email-outline"></span>
-            <span>glasses@business.com</span>
+            <ul class="menu">
+              <li><a href="http://www.google.com">隱私權政策</a></li>
+              <li><a href="http://www.google.com">服務條款</a></li>
+            </ul>
           </li>
-        </ul>
-      </div>
-      <div class="tnc container flex justify-space-between">
-        <div class="copyright">Copyright © 2020 Glasses.All rights reserved.</div>
-        <ul class="menu">
-          <li><a href="http://www.google.com">隱私權政策</a></li>
-          <li><a href="http://www.google.com">服務條款</a></li>
         </ul>
       </div>
     </footer>

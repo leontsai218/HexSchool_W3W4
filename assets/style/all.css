@@ -236,7 +236,7 @@ footer {
     margin-top: 24px; }
     footer .contact-ways i {
       margin-right: 20px; }
-  footer .tnc {
+  footer .bottom {
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -244,6 +244,9 @@ footer {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    footer .bottom .tnc {
+      font-size: 14px;
+      line-height: 21px; }
 
 header,
 footer {
@@ -320,13 +323,13 @@ footer {
     footer .contact-ways {
       width: initial;
       margin-top: 0; }
-    footer .tnc {
+    footer .bottom {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
       gap: 8px; }
-      footer .tnc .menu {
+      footer .bottom .menu {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;

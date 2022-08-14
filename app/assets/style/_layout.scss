@@ -52,10 +52,15 @@ footer {
         }
     }
 
-    .tnc {
+    .bottom {
         color: #fff;
         display: flex;
         justify-content: space-between;
+
+        .tnc {
+            font-size: 14px;
+            line-height: 21px;
+        }
     }
 }
 
@@ -164,7 +169,7 @@ footer {
             margin-top: 0;
         }
 
-        .tnc {
+        .bottom {
             flex-direction: column;
             gap: 8px;
 

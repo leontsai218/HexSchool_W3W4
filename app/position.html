@@ -1,0 +1,40 @@
+---
+title: 眼鏡官網
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<section class="position container">
+    <h3 class="page-title">門市據點</h3>
+    <ul class="choose-position">
+        <li>
+            <h5>選擇分店</h5>
+        </li>
+        <li>
+            <select class="store" name="store">
+                <option value="">台北中山旗艦店</option>
+            </select>
+        </li>
+    </ul>
+    <ul class="position-detail">
+        <li class="information">
+            <ul>
+                <li class="photo">
+                    <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/storepage-1.png" alt="store-photo">
+                </li>
+                <li class="body">
+                    <h5 class="name">台北中山旗艦店</h5>
+                    <ul class="content">
+                        <li><span class="mdi mdi-phone-outline"></span><span>電話：(02)000-1234</span></li>
+                        <li><span class="mdi mdi-clock-outline"></span><span>營業時間：10:00-21:00</span></li>
+                        <li><span class="mdi mdi-map-marker-outline"></span><span>地址：台北市中山區南京東路25巷2-1號</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="map">
+            <img src="/assets/images/map.png" alt="">
+        </li>
+    </ul>
+</section>

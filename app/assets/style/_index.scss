@@ -229,6 +229,16 @@ section {
             }
         }
     }
+
+    .agree {
+        display: flex;
+        align-items: start;
+        width: fit-content;
+
+        input[type="checkbox"] {
+            margin-top: 0;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -355,11 +365,6 @@ section {
             button {
                 width: 100%;
             }
-        }
-        .agree {
-            display: flex;
-            justify-content: space-between;
-            align-items: start;
         }
     }
 }
